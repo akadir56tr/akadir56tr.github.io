@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
+  <style>
+    div.mycontainer {
+      width:100%;
+      overflow:auto;
+    }
+    div.mycontainer div {
+      width:33%;  
+      float:left;
+    }
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
     <title>Abdulkadirertaş.github.io Web Sitesi</title>
 </head>
 <body>
@@ -16,19 +26,30 @@
           </li>
         </ul>
         <ul>
-          <li><a href="cisco" role="button">Cisco</a></li>
-          <li><a href="hp" role="button">Hp</a></li>
-          <li><a href="hakkimda.html" role="button">Hakkımda</a></li>
+          
+          <li><a href="hakkimda.html" role="button">-</a></li>
         </ul>
       </nav>
       <hr class="container-fluid">
-<main class="container">
+<main>
 
-  <article data-theme="light" >
-    <header>Cisco</header>
-    <img class="conainer" src="https://picsum.photos/650/300/?blur=2" alt="Cisco">
-    
-  </article>
+  <div  class="mycontainer"   text-align:"justify"; margin:"left;" >
+      
+
+    <div class="mycontainer">
+      <img src="img/kadir.JPG"   >
+    </div>
+        <div class="mycontainer"> 
+          <p>  1984 yılında Batmanda doğdu. 2009 yılında Azerbaycan Teknik Üniversitesi Bilgisayar Mühendisliği bölümünden mezun oldu. 2011 yılında
+               Ardahan Üniversitesine atandı. 9 yıl ardahan Üniversitesi Bilgi İşlem Daire Başkanlğı'nda  Sistem Network sorumlusu olarak çalıştı. 2020 yılında 
+               Mersin Akdeniz Belediyesine Nakil Olarak geldi. 4 yılı aşkın süredir bilgi işlem merkezinde çalışmakta.Kamu kurumlarında karşılaşılan
+                problemlerle ilgili tecrübelerini paylaşmak istemediktedir.
+          </p>
+        </div>
+        <div class="mycontainer">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eius cumque, porro doloribus necessitatibus magni.
+        </div>
+  </div>
 </main>
 </body>
 </html>
